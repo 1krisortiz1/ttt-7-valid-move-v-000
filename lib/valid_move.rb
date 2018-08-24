@@ -1,14 +1,3 @@
-#
-
-def valid_move?(board,index)
-#  if board[index] == " " || board[index] == nil || board[index] == ""
-#    false
-#  else board[index] == "X" || board[index] == "O"
-#     true
-#  end
-#
-#end
-
 
  def valid_move?(board, index)
        if index == nil || index < 0 || index > 8
